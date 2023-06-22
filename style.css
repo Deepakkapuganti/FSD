@@ -1,0 +1,54 @@
+.h1{
+    background-color: whitesmoke;
+    font-family: Georgia;
+    font-size: x-large;
+}
+.h6{
+    font-family: cursive;
+    position: relative;
+    left:750px ;
+}
+.p{
+   text-align: center;
+   font-size: medium;
+   
+}
+.dk{
+    font-size: large;
+   font-family: Georgia;
+   text-align: left;
+
+}
+.p2{
+    color: red;
+    display:inline-block;
+    outline: 2px dotted green;
+    background: #ffffff;
+    padding: 10px;
+    margin-left: 30px;
+}
+.p3{
+    display: inline-block;
+    text-align: left; 
+    font-style: italic;
+}
+.container{
+    text-align: center;
+}
+.table,th,td{
+    border:brown solid 1px;
+}
+  .p4{
+    font-style: italic;
+    display: inline-block;
+    padding: 10px;
+    background: #FFC107;
+    color: #ffffff;;
+  }
+ .line
+ {
+    line-break: normal;
+    line-height: 30px;
+ }
+  
+  
