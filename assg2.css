@@ -1,0 +1,91 @@
+*{
+    background-color: #023e54;
+    color: whitesmoke;
+}
+.h1{
+    text-align: center;
+    margin-top: 10px;
+}
+#h5{
+    color: aliceblue;
+    font-style:italic;
+    position:relative;
+    left: 750px;
+}
+.container{
+    display:flex;
+}
+.image{
+    background-image: url(image.jpg);
+    height: 500px;
+    width: 550px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.p{
+   text-align: center;
+   align-content:flex-end;  
+   flex-shrink:10;
+   font: italic 1.3em "Fira Sans", serif;
+   margin: 50px 20px 50px 50px;  
+   border: 2px papayawhip groove;
+   padding: 20px 20px 20px 20px;
+
+}
+.pre{
+    font-style: oblique;
+    font-weight: bolder;
+    color: lightcoral;
+}
+.align{
+    text-align: center;
+    
+}
+.p3{
+    display:grid;
+    grid-template-columns: repeat(2,10fr);
+    font-family:sans-serif;
+   list-style:square;
+   text-transform: capitalize;
+   line-height: 30px; 
+}
+.p4{
+    list-style: disc;
+    line-height: 30px;
+}
+.p5{
+    height:350px;
+    width:100%;
+    border:3px dashed paleturquoise;
+   ;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+    border:1px solid orange;
+    color: cornsilk;
+    padding: 20px 20px 20px 20px;
+   }
+table{
+  margin: 20px 30px 20px 350px;
+  border: 5px groove brown;
+
+}
+.caption{
+    background-color: bisque;
+    color: crimson;
+    font-size: xx-large;
+}
+footer{
+    background-color:wheat;
+    color:orangered;
+    text-align:center;
+    height: 30px;
+    width:100%;
+    font-family:cursive;
+    margin: 10px;
+    position:static;
+}
+
+  
